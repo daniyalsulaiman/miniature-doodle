@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        body {
+            font-family: "Old English Text MT", sans-serif; /* Change font-family to Old English */
+            font-size: 22px; /* Increase font size */
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Change background color to black */
+            color: white; /* Change font color to white */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: #ff0;
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: center; /* Center align content horizontally */
+        }
+        section video {
+            width: 80%; /* Make the video 80% of the container width */
+            max-width: 500px; /* Limit maximum width of the video */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome Weary Traveller!</h1>
+        <p>I see your journey to the vast seas of the internet has brought you here. Feel free to rest and gaze at the stars or click <a href="content.html">here</a> to read a short folk tale.</p> 
+    </header>
+
+    <section>
+        <video controls autoplay loop>
+            <source src="hwvid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+</body>
+</html>
